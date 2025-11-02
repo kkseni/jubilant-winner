@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.nav-logo-img {}
+
 
 .nav-list {
   display: none;
@@ -73,9 +73,19 @@
   color: #173a56;
 }
 
+.sign-in:hover,
+.sign-in:focus {
+  background-color: aqua;
+}
+
 .sign-up {
   color: #fff;
   width: 113px;
   height: 42px;
   background: #02897a;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  background-color: #bcd0e5;
 }
